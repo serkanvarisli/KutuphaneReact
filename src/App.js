@@ -18,7 +18,7 @@ function App() {
         {
           Data
             .filter((val) => {
-              if (searchTerm == "") {
+              if (searchTerm == "") {    
                 return val;
               } else if (val.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())) {
                 return val;
