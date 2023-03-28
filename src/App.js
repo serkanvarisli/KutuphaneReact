@@ -11,8 +11,10 @@ function App() {
       <div className='inputContainer'>
         <input className='search' type="text" placeholder="Aramak için girin.."
           onChange={(e) => setSearchTerm(e.target.value)}
+          //clear input
+          value={searchTerm}
         />
-
+        <button className='clear' onClick={() => setSearchTerm("")}>Temizle</button>
       </div>
       <div className='dataContainer'>
         {
