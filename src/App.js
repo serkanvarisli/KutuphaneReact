@@ -5,16 +5,25 @@ import Data from './Data.json';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [showClear, setShowClear] = useState(false);
+function handleClear() {
+    setSearchTerm("");
+    setShowClear(false);
+  }
+  function handleSearch(event) {
+    setSearchTerm(event.target.value);
+    setShowClear(event.target.value.length > 0);
+  }
   return (
-    <div className='container'>
-      <h1>KÜTÜPHANE</h1>
+    <div className='maincontainer'>
+      <h1>KÜTÜPHANE</h1>  
       <div className='inputContainer'>
-        <input className='search' type="text" placeholder="Aramak için girin.."
-          onChange={(e) => setSearchTerm(e.target.value)}
+        <input className='search' id='search-box' type="text" placeholder="Aramak için girin.."
+          onChange={handleSearch}
           //clear input
-          value={searchTerm}
+          value={searchTerm} 
         />
-        <button className='clear' onClick={() => setSearchTerm("")}>Temizle</button>
+        {showClear&&<button className='clear' onClick={handleClear}>Temizle</button>}
       </div>
       <div className='dataContainer'>
         {
@@ -44,5 +53,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

@@ -20,7 +20,7 @@ img {
   font-size: 300px;
 }
 
-.container {
+.maincontainer {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -59,7 +59,7 @@ input {
 }
 
 .clear {
-  width: 4%;
+  width: 15%;
   padding: 14px 20px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -125,4 +125,11 @@ p {
 .data:hover {
   opacity: 0.77;
   transform: scale(1.1);
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
