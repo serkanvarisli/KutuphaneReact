@@ -115,11 +115,12 @@ p {
   margin: 20px;
   background-color: #887e77;
   padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 10px;
   letter-spacing: 1.5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: .3s;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .data:hover {
