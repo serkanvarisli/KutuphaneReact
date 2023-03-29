@@ -41,7 +41,7 @@ h1 {
 }
 
 input {
-  width: 40%;
+  width: 41%;
   padding: 14px 20px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -55,7 +55,7 @@ input {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Antic Slab', serif;
 }
 
@@ -141,7 +141,7 @@ p {
   bottom: 0;
   width: 100%;
   background-color: rgb(136, 126, 119, 0.25);
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-family: 'Antic Slab', serif;
   padding: auto;
