@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KutuphaneReact/static/css/main.9cc0536f.css",
-    "main.js": "/KutuphaneReact/static/js/main.81ecbaeb.js",
+    "main.css": "/KutuphaneReact/static/css/main.b41dc257.css",
+    "main.js": "/KutuphaneReact/static/js/main.86382ccb.js",
     "static/js/787.77c944a9.chunk.js": "/KutuphaneReact/static/js/787.77c944a9.chunk.js",
     "index.html": "/KutuphaneReact/index.html",
-    "main.9cc0536f.css.map": "/KutuphaneReact/static/css/main.9cc0536f.css.map",
-    "main.81ecbaeb.js.map": "/KutuphaneReact/static/js/main.81ecbaeb.js.map",
+    "main.b41dc257.css.map": "/KutuphaneReact/static/css/main.b41dc257.css.map",
+    "main.86382ccb.js.map": "/KutuphaneReact/static/js/main.86382ccb.js.map",
     "787.77c944a9.chunk.js.map": "/KutuphaneReact/static/js/787.77c944a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc0536f.css",
-    "static/js/main.81ecbaeb.js"
+    "static/css/main.b41dc257.css",
+    "static/js/main.86382ccb.js"
   ]
 }
