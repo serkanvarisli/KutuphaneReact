@@ -14,11 +14,12 @@ function handleClear() {
     setSearchTerm(event.target.value);
     setShowClear(event.target.value.length > 0);
   }
+
   return (
     <div className='maincontainer'>
       <h1>KÜTÜPHANE</h1>  
       <div className='inputContainer'>
-        <input className='search' id='search-box' type="text" placeholder="Aramak için girin.."
+        <input className='search' id='search-box' type="text" placeholder="Kitap veya Yazar Ara..."
           onChange={handleSearch}
           //clear input
           value={searchTerm} 
@@ -49,6 +50,12 @@ function handleClear() {
               )
             })
         }
+      </div>
+      <br />
+      <br />
+      <br />
+      <div className='footer'>
+        <p>© Copyright 2023 Serkan Varışlı</p>
       </div>
     </div>
   );

@@ -28,6 +28,7 @@ img {
   justify-content: center;
   flex-direction: column;
   background-color: #382216;
+  position: relative;
 }
 
 h1 {
@@ -133,4 +134,17 @@ p {
   align-items: center;
   text-align: center;
   display: flex;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(136, 126, 119, 0.25);
+  color: white;
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  padding: auto;
+  height: 45px;
+  position: absolute;
 }
