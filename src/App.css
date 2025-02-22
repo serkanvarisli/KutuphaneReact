@@ -115,6 +115,8 @@ p {
   margin: 20px;
   background-color: #887e77;
   padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 20px;
   border-radius: 10px;
   letter-spacing: 1.5px;
