@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="maincontainer">
-      <h1>KÜTÜPHANE</h1>
+      <h1>KÜTÜPHANEM</h1>
       <div className="inputContainer">
         <input
           className="search"

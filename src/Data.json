@@ -61,6 +61,27 @@
         "title":"KORKU",
         "author":"STEPHAN ZWEIG",
         "Description":"Rahat ve korunaklı bir yaşam süren saygın bir kadın, sekiz yıllık evliliğinden sıkılmış, burjuva dünyasının kozasından çıkarak kendini genç bir piyanistin kollarına atmıştır. Ancak bu gizli ilişkiden haberdar olan bir şantajcının ansızın zuhur etmesiyle, hayatında yeni farkına vardığı bütün güzellikleri yitirme tehlikesiyle karşı karşıya kalır ve kahredici bir korkunun pençesine düşer."
+    },
+    {
+        "id":10,
+        "image":"https://m.media-amazon.com/images/I/41zpkZuzlrL._SY445_SX342_.jpg",
+        "title":"KÖRLÜK",
+        "author":"JOSE SARAMAGO",
+        "Description":"Körlük, ürkütücü bir roman, beklenmedik bir felaketi yaşayan bir toplumun nasıl çöktüğünün, nasıl bencilleştiğinin ve değer yargılarını yitirdiğinin hikayesi."
+    },
+    {
+        "id":11,
+        "image":"https://m.media-amazon.com/images/I/61fInK4QuYL._SY466_.jpg",
+        "title":"BİLİNMEYEN BİR KADININ MEKTUBU",
+        "author":"STEPHAN ZWEIG",
+        "Description": "Kadın büyük tutkusunu hep bir bilinmeyen olarak, yani tek başına yaşamaya razıdır, bu aşk öyküsünde taraflar değil, sadece tek bir taraf vardır. Böylesine, gerçek anlamda aşk denilebilir mi? Zweig okurunu, bir kez daha, insan psikolojisinde eşine pek rastlanmayan bir yolculuğa davet ediyor. "
+    },
+    {
+        "id":12,
+        "image":"https://m.media-amazon.com/images/I/61tWv7fDroL._SY466_.jpg",
+        "title":"IKIGAI - JAPON YAŞAM SANATI",
+        "author":"KEN MOGI",
+        "Description": "Dünyanın en huzurlu, en uzun yaşayan insanları arasında yer alan Japonların yaşam felsefesinin temelini oluşturan ikigaidir. Her sabah yataktan kalkmak için bir sebep olması gerektiğine inanan Japonlar buna ikigai diyorlar. Ve doğrusu, gerçek Japon mucizesi budur... "
     }
 
 ]
