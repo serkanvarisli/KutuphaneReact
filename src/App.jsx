@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 import Data from "./Data.json";
+import Darkmode from "./Darkmode";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import WebIcon from '@mui/icons-material/Web';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -16,6 +20,7 @@ function App() {
 
   return (
     <div className="maincontainer">
+      <Darkmode />
       <h1>KÜTÜPHANEM</h1>
       <div className="inputContainer">
         <input
@@ -65,8 +70,13 @@ function App() {
       <br />
       <br />
       <br />
-      <div className="footer">
-        <p>© Copyright 2023 Serkan Varışlı</p>
+      <div className="footer" style={{ display: "flex", justifyContent: "space-between" }}>
+        <div> <span>© Design by Serkan Varışlı</span></div>
+        <div>
+          <a style={{ marginRight: "10px" }} href="https://github.com/serkanvarisli" target="_blank" ><GitHubIcon /></a>
+          <a style={{ marginRight: "10px" }} href="https://www.linkedin.com/in/serkan-varisli/" target="_blank"><LinkedInIcon /></a>
+          <a href="https://serkanvarisli.netlify.app" target="_blank"><WebIcon /></a>
+        </div>
       </div>
     </div>
   );

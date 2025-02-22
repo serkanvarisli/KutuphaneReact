@@ -1,5 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
+
+.dark {
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+
+  .footer {
+    color: rgba(255, 255, 255, 0.87);
+    ;
+  }
+
+  .maincontainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #382216;
+    position: relative;
+  }
+
+  a {
+    color: rgba(255, 255, 255, 0.87);
+    ;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #0070f3;
+  }
+}
+
+.light {
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+
+  .footer {
+    color: #242424;
+  }
+
+  .maincontainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c5bcb8;
+    position: relative;
+  }
+
+  a {
+    color: #242424;
+  }
+
+  input::placeholder {
+    color: #242424;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #0070f3;
+  }
+
+  .MuiButton-outlinedPrimary {
+    color: #242424 !important;
+    border-color: #242424 !important;
+    font-size: small !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  cursor: pointer;
+  right: 15px;
+  top: 15px;
+  justify-content: right;
+  align-items: right;
+  position: absolute;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  color: rgb(255, 255, 255, 0.87);
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  height: 20px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: 20%;
+  }
+}
+
+.MuiButton-outlinedPrimary {
+  color: rgba(255, 255, 255, 0.87) !important;
+  border-color: rgba(255, 255, 255, 0.87) !important;
+  font-size: small !important;
+  margin-bottom: 20px !important;
+}
+
+
 * {
   padding: 0;
   margin: 0;
