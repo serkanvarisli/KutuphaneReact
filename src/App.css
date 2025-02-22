@@ -85,7 +85,7 @@
   top: 15px;
   justify-content: right;
   align-items: right;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .footer {
