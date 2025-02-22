@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KutuphaneReact/static/css/main.f9bfae53.css",
+    "main.css": "/KutuphaneReact/static/css/main.fc370416.css",
     "main.js": "/KutuphaneReact/static/js/main.4fe35774.js",
     "static/js/787.77c944a9.chunk.js": "/KutuphaneReact/static/js/787.77c944a9.chunk.js",
     "index.html": "/KutuphaneReact/index.html",
-    "main.f9bfae53.css.map": "/KutuphaneReact/static/css/main.f9bfae53.css.map",
+    "main.fc370416.css.map": "/KutuphaneReact/static/css/main.fc370416.css.map",
     "main.4fe35774.js.map": "/KutuphaneReact/static/js/main.4fe35774.js.map",
     "787.77c944a9.chunk.js.map": "/KutuphaneReact/static/js/787.77c944a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9bfae53.css",
+    "static/css/main.fc370416.css",
     "static/js/main.4fe35774.js"
   ]
 }
